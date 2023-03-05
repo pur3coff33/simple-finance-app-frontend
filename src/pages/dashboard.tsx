@@ -5,7 +5,7 @@ export default function Dashboard(){
         <Layout>
             <div className="flex gap-2 flex-wrap">
                 {[...Array(10)].map(() =>
-                    <span className="bg-white text-black rounded-md border-l-4 border-l-teal-500 p-3">
+                    <span className="bg-white text-black rounded-md border-l-4 border-l-teal-500 p-3 xs:text-xs md:text-xl">
                         Test Content
                     </span>)
                 }
