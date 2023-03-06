@@ -1,5 +1,15 @@
 {
   "projects": {
-    "default": "sfinance"
-  }
+    "default": "app-prototype-7c65f"
+  },
+  "targets": {
+    "app-prototype-7c65f": {
+      "hosting": {
+        "sfinance": [
+          "sfinance"
+        ]
+      }
+    }
+  },
+  "etags": {}
 }
